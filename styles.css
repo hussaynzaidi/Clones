@@ -8,7 +8,9 @@ body {
 header {
     text-align: center;
     padding: 10px;
-    background-color: #1616b1;
+    background-color: #1a1a97;
+    font-family:'Courier New', Courier, monospace;
+    color: aliceblue;
 }
 
 section {
@@ -18,5 +20,7 @@ section {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #831717;
+    background-color: #1a1a97;
+    font-family:'Courier New', Courier, monospace;
+    color: aliceblue;
 }
