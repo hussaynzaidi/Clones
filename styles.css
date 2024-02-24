@@ -13,6 +13,7 @@
     font-size: medium;
     color: #4346ae;
     text-align: center;
+    font-weight:bold;
 }
 #pfp img{
     max-width: 100%;
@@ -23,12 +24,12 @@
     flex: 5 5 30%; 
 }
 #name {
-    flex: 0 0 70%; /* Takes 70% of the available space, doesn't grow or shrink */
-    padding-left: 20px; /* Adjust the padding as needed */
+    flex: 0 0 70%; 
+    padding-left: 20px; 
 }
 
 #name h1, #name h2 {
-    margin: 0; /* Remove default margin for better spacing */
+    margin: 0; 
 }
 header {
     align-items: center;
@@ -40,10 +41,9 @@ header {
     font-family: 'Courier New', Courier, monospace;
 }
 hr {
-    width: 80%; /* Adjust the width as per your preference */
-    border: 1.1px solid black; /* Set the color and style of the line */
-    margin: 20px auto; /* Center the line and adjust the space above and below */
-}
+    width: 80%; 
+    border: 1.1px solid black; 
+    margin: 20px auto; }
 
 #overview, #nav, #proj, #exp, #skills, #edu, #act {
     font-family: 'Courier New', Courier, monospace;
