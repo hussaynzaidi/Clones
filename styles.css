@@ -1,26 +1,54 @@
 /* styles.css */
+.separator {
+    display: inline-block;
+    width: 1.2px; 
+    height: 1em; 
+    background-color: black; 
+    margin: 3 5px; 
+}
+
+#contact {
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    font-size: medium;
+    color: #4346ae;
+    text-align: center;
+}
+#pfp img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 15%;
+}
+#pfp {
+    flex: 5 5 30%; 
+}
+#name {
+    flex: 0 0 70%; /* Takes 70% of the available space, doesn't grow or shrink */
+    padding-left: 20px; /* Adjust the padding as needed */
+}
+
+#name h1, #name h2 {
+    margin: 0; /* Remove default margin for better spacing */
+}
+header {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+hr {
+    width: 80%; /* Adjust the width as per your preference */
+    border: 1.1px solid black; /* Set the color and style of the line */
+    margin: 20px auto; /* Center the line and adjust the space above and below */
+}
+
+#overview, #nav, #proj, #exp, #skills, #edu, #act {
+    font-family: 'Courier New', Courier, monospace;
+}
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-}
-
-header {
-    text-align: center;
-    padding: 10px;
-    background-color: #1a1a97;
-    font-family:'Courier New', Courier, monospace;
-    color: aliceblue;
-}
-
-section {
-    margin: 20px 0;
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #1a1a97;
-    font-family:'Courier New', Courier, monospace;
-    color: aliceblue;
+    background-color: aliceblue;
 }
