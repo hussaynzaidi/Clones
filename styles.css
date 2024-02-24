@@ -51,4 +51,7 @@ hr {
 
 body {
     background-color: aliceblue;
+    margin-left: 3%;
+    margin-right: 0%;
+    overflow-x: hidden; /* Prevent horizontal scrollbar */    
 }
