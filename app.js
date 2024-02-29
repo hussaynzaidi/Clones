@@ -1,10 +1,13 @@
 // app.js
 
-// Display an alert when the page loads
-window.onload = function() {
-    alert("Hello from app.js!");
-    // You can add more JavaScript code here if needed
-};
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    document.body.classList.add('dark-mode');
+}
+
+// Toggle dark mode on button click (optional)
+function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+}
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {

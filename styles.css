@@ -7,6 +7,10 @@
     margin: 3 5px; 
 }
 
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
 #contact {
     font-family: 'Courier New', Courier, monospace;
     margin: auto;
